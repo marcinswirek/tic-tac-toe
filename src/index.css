@@ -58,6 +58,7 @@ ol, ul {
   border: none;
   border-radius: 5px;
   transition: 0.3s all linear;
+  line-height: 30px;
 }
 
 .reset-btn:hover {
