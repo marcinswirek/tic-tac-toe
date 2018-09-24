@@ -27,12 +27,13 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 44px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 44px;
+  box-shadow: 0 0 5px #000;
 }
 
 .square:focus {
@@ -50,4 +51,17 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s all linear;
+}
+
+.reset-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #000;
+  cursor: pointer;
 }
